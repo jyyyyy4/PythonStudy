@@ -34,3 +34,6 @@ st.divider()
 st.subheader("3) expander: 접었다 펼치는 영역")
 with st.expander("클릭해서 펼치기"):
     st.write("설명, 도움말, 고급 옵션을 숨겨 놓을 때 유용하다.")
+
+if show_detail:
+    st.info("상세 정보 옵션이 켜져 있다.")
